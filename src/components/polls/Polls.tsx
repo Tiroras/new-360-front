@@ -1,4 +1,5 @@
 import React from 'react';
+import { PollsListElement } from './PollsListElement';
 
 export const Polls = () => {
   return(
@@ -7,7 +8,7 @@ export const Polls = () => {
         <h2>Список опросов</h2>
       </div>
       <div>
-        
+        <PollsListElement name='Минтаров Федор Сидрович' position='Стажер' />
       </div>
     </div>
   )
